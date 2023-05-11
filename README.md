@@ -43,3 +43,53 @@ dotnet run --project Battleships/Battleships.csproj
 ```bash
 dotnet test Battleships.Tests/Battleships.Tests.csproj
 ```
+
+### How to play
+After running the game, you will see the board:
+
+```bash
+   A B C D E F G H I J
+ 1 . . . . . . . . . .
+ 2 . . . . . . . . . .
+ 3 . . . . . . . . . .
+ 4 . . . . . . . . . .
+ 5 . . . . . . . . . .
+ 6 . . . . . . . . . .
+ 7 . . . . . . . . . .
+ 8 . . . . . . . . . .
+ 9 . . . . . . . . . .
+10 . . . . . . . . . .
+
+```
+You can choose the field you want to shoot at by typing its coordinates, for example: `B2`.
+
+Field can be displayed as:
+
+`.` - empty field
+
+`H` - hit
+
+`M` - missed
+
+`S` - sunk
+
+For example:
+
+```bash
+   A B C D E F G H I J
+ 1 . S . . . . . . . .
+ 2 . S M . . . . . . .
+ 3 . S . . . . . . . .
+ 4 . S . . . . . . . .
+ 5 . S . . H . . . . .
+ 6 . M . . . . . . . .
+ 7 . M . . . . . . . .
+ 8 . . . . . . . . . .
+ 9 . . . . . . . . . .
+10 . . . . . . . . . .
+
+```
+
+In this example, you can see that the ship spanning from B1 to B5 has been sunk (S), a shot at F5 has hit but the ship hasn't been sunk yet (H), and shots at F6 and F7 have missed (M).
+
+Enjoy playing Battleships!
