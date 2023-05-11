@@ -90,7 +90,7 @@ For example:
 
 ```
 
-In this example, you can see that the ship spanning from B1 to B5 has been sunk (S), a shot at F5 has hit but the ship hasn't been sunk yet (H), and shots at F6 and F7 have missed (M).
+In this example, you can see that the ship spanning from `B1` to `B5` has been sunk `S`, a shot at `F5` has hit but the ship hasn't been sunk yet `H`, and shots at `F6` and `F7` have missed `M`.
 
 If you manage to sink all the ships, you will see the message: `You won! :)`
 
